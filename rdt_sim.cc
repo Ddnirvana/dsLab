@@ -19,6 +19,11 @@
 #include "rdt_receiver.h"
 
 
+/*
+ * Log file
+ */
+ FILE * pk_log;
+
 /*[]------------------------------------------------------------------------[]
   |  generic event chain framework
   []------------------------------------------------------------------------[]*/
@@ -276,6 +281,16 @@ bool Sender_isTimerSet()
 /* pass a packet to the lower layer at the sender */
 void Sender_ToLowerLayer(struct packet *pkt)
 {
+    static int cnt=0;
+    fprintf(pk_log,"packet no:%d\n",cnt++);
+    unsigned int messid=(unsigned char)pkt->data[3]+(((unsigned char )pkt->data[4])<<8);
+    int pktsize=pkt->data[0];
+    fprintf(pk_log,"message:%u,seq:%d,ack:%d:\n",messid,pkt->data[1],pkt->data[2]);
+    fprintf(pk_log,"id1:%d,id2:%d\n",pkt->data[3],pkt->data[4]);
+    for (int i=0;i<pktsize;i++)
+    	fprintf(pk_log,"%c",pkt->data[5+i]);
+    fprintf(pk_log,"\n");
+    fflush(pk_log);
     /* packet lost at rate "loss_rate" */
     if (myrandom()<loss_rate) return;
 
@@ -347,6 +362,17 @@ void Receiver_ToUpperLayer(struct message *msg)
     tot_chars_delivered += msg->size;
 }
 
+void log_init()
+{
+	pk_log=fopen("pk_log","w");
+	fprintf(pk_log,"Hello,log\n");
+	fflush(pk_log);
+}
+
+void log_finish()
+{
+	fclose(pk_log);
+}
 
 /*[]------------------------------------------------------------------------[]
   |  main simulation control routine
@@ -354,6 +380,7 @@ void Receiver_ToUpperLayer(struct message *msg)
 
 int main(int argc, char *argv[])
 {
+    log_init();
     if (argc!=8) {
 	fprintf(stderr, "usage: %s <sim_time> <mean_msg_arrivalint> <mean_msg_size> "
 		"<outoforder_rate> <loss_rate> <corrupt_rate> <tracing_level>\n", 
@@ -408,7 +435,7 @@ int main(int argc, char *argv[])
 	    "Please review these inputs and press <enter> to proceed.\n",
 	    sim_time, msg_arrivalint, msg_size, outoforder_rate*100.0, 
 	    loss_rate*100.0, corrupt_rate*100.0, tracing_level);
-    fgetc(stdin);
+    //fgetc(stdin);
 
     /* initialize the random number generator */
     srand(getpid()+getppid());
@@ -527,6 +554,6 @@ int main(int argc, char *argv[])
 	fprintf(stdout, "## Congratulations! This session is error-free, loss-free, and in order.\n");
     else
 	fprintf(stdout, "## Something is wrong! This session is NOT error-free, loss-free, and in order.\n");
-
+    log_finish();
     return 0;
 }
