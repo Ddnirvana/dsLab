@@ -6,6 +6,9 @@
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
 ASSERT	rdt_struct.h	12;"	d
 CCFLAGS	Makefile	/^CCFLAGS = -Wall -g$/;"	m
+Dd_VTimer	rdt_sender.cc	/^struct Dd_VTimer{$/;"	s	file:
+Dd_windows	rdt_sender.cc	/^struct Dd_windows{ $/;"	s	file:
+Dd_windows2	rdt_receiver.cc	/^struct Dd_windows2{$/;"	s	file:
 EVENT_RECEIVER_FROMLOWERLAYER	rdt_sim.cc	/^      EVENT_SENDER_TIMEOUT, EVENT_RECEIVER_FROMLOWERLAYER};$/;"	e	enum:__anon1	file:
 EVENT_SENDER_FROMLOWERLAYER	rdt_sim.cc	/^enum {EVENT_SENDER_FROMUPPERLAYER=0, EVENT_SENDER_FROMLOWERLAYER, $/;"	e	enum:__anon1	file:
 EVENT_SENDER_FROMUPPERLAYER	rdt_sim.cc	/^enum {EVENT_SENDER_FROMUPPERLAYER=0, EVENT_SENDER_FROMLOWERLAYER, $/;"	e	enum:__anon1	file:
@@ -22,12 +25,14 @@ EventSenderFromUpperLayer	rdt_sim.cc	/^    EventSenderFromUpperLayer() { event_t
 EventSenderFromUpperLayer	rdt_sim.cc	/^class EventSenderFromUpperLayer : public Event$/;"	c	file:
 EventSenderTimeout	rdt_sim.cc	/^    EventSenderTimeout() { event_type = EVENT_SENDER_TIMEOUT; }$/;"	f	class:EventSenderTimeout
 EventSenderTimeout	rdt_sim.cc	/^class EventSenderTimeout : public Event$/;"	c	file:
+FLAG_SIZE	rdt_receiver.cc	25;"	d	file:
 GetSimulationTime	rdt_sim.cc	/^double GetSimulationTime()$/;"	f
 LDFLAGS	Makefile	/^LDFLAGS = -Wall -g$/;"	m
 RDT_PKTSIZE	rdt_struct.h	27;"	d
 Receiver_Final	rdt_receiver.cc	/^void Receiver_Final()$/;"	f
 Receiver_FromLowerLayer	rdt_receiver.cc	/^void Receiver_FromLowerLayer(struct packet *pkt)$/;"	f
 Receiver_Init	rdt_receiver.cc	/^void Receiver_Init()$/;"	f
+Receiver_SendBackAck	rdt_receiver.cc	/^void Receiver_SendBackAck(unsigned int  msgid){$/;"	f
 Receiver_ToLowerLayer	rdt_sim.cc	/^void Receiver_ToLowerLayer(struct packet *pkt)$/;"	f
 Receiver_ToUpperLayer	rdt_sim.cc	/^void Receiver_ToUpperLayer(struct message *msg)$/;"	f
 Sender_Final	rdt_sender.cc	/^void Sender_Final()$/;"	f
@@ -43,37 +48,74 @@ TARGETS	Makefile	/^TARGETS = rdt_sim $/;"	m
 _RDT_RECEIVER_H_	rdt_receiver.h	9;"	d
 _RDT_SENDER_H_	rdt_sender.h	9;"	d
 _RDT_STRUCT_H_	rdt_struct.h	9;"	d
+add_VTimer	rdt_sender.cc	/^void add_VTimer(unsigned int id){$/;"	f
 cancel	rdt_sim.cc	/^    void cancel(Event *e) {$/;"	f	class:EventChain
+check_ckm	checksum.cc	/^bool check_ckm(struct packet *pkt){$/;"	f
+checkfinish	rdt_receiver.cc	/^void checkfinish(){$/;"	f
+checksum	checksum.cc	/^void checksum(struct packet * pkt){$/;"	f
+checkup	rdt_receiver.cc	/^void checkup()$/;"	f
 corrupt_rate	rdt_sim.cc	/^double corrupt_rate;$/;"	v
+couldSendUp	rdt_receiver.cc	/^int couldSendUp(){$/;"	f
+data	rdt_receiver.cc	/^	char *data;$/;"	m	struct:Dd_windows2	file:
+data	rdt_sender.cc	/^	char *data;$/;"	m	struct:Dd_windows	file:
 data	rdt_struct.h	/^    char *data;$/;"	m	struct:message
 data	rdt_struct.h	/^    char data[RDT_PKTSIZE];$/;"	m	struct:packet
+dd_ready	rdt_sender.cc	/^static int dd_ready;$/;"	v	file:
+dd_recwind	rdt_receiver.cc	/^struct Dd_windows2 * dd_recwind;$/;"	v	typeref:struct:Dd_windows2
+dd_sendwind	rdt_sender.cc	/^struct Dd_windows* dd_sendwind;$/;"	v	typeref:struct:Dd_windows
+dd_waitfor	rdt_receiver.cc	/^static unsigned int dd_waitfor=0;$/;"	v	file:
 event_type	rdt_sim.cc	/^    int event_type;         \/* application-specific event type *\/$/;"	m	class:Event	file:
+f_timer	rdt_sender.cc	/^struct Dd_VTimer * f_timer;$/;"	v	typeref:struct:Dd_VTimer
+flag	rdt_receiver.cc	/^	char flag[FLAG_SIZE];$/;"	m	struct:Dd_windows2	file:
 free_msg	rdt_sim.cc	/^static void free_msg(struct message *msg)$/;"	f	file:
 generate_msg	rdt_sim.cc	/^static struct message *generate_msg()$/;"	f	file:
 head	rdt_sim.cc	/^    Event *head;            \/* head event in the chain *\/$/;"	m	class:EventChain	file:
+id	rdt_receiver.cc	/^	unsigned int id;$/;"	m	struct:Dd_windows2	file:
+id	rdt_sender.cc	/^	unsigned int id;$/;"	m	struct:Dd_VTimer	file:
+id	rdt_sender.cc	/^	unsigned int id;$/;"	m	struct:Dd_windows	file:
+id	rdt_wind.h	/^	int id;{$/;"	v
+l_timer	rdt_sender.cc	/^struct Dd_VTimer * l_timer;$/;"	v	typeref:struct:Dd_VTimer
+lastseq	rdt_receiver.cc	/^	int lastseq;$/;"	m	struct:Dd_windows2	file:
+log_finish	rdt_sim.cc	/^void log_finish()$/;"	f
+log_init	rdt_sim.cc	/^void log_init()$/;"	f
 loss_rate	rdt_sim.cc	/^double loss_rate;$/;"	v
 main	rdt_sim.cc	/^int main(int argc, char *argv[])$/;"	f
 message	rdt_struct.h	/^struct message {$/;"	s
 message_verfication_passed	rdt_sim.cc	/^bool message_verfication_passed = true;$/;"	v
 msg_arrivalint	rdt_sim.cc	/^double msg_arrivalint;$/;"	v
 msg_size	rdt_sim.cc	/^int msg_size;$/;"	v
+msgoutwind	rdt_sender.cc	/^void msgoutwind(unsigned int msgid){$/;"	f
+msgtowind	rdt_sender.cc	/^void msgtowind(struct message * msg)$/;"	f
 myrandom	rdt_sim.cc	/^static double myrandom()$/;"	f	file:
+next	rdt_receiver.cc	/^	struct Dd_windows2 * next;$/;"	m	struct:Dd_windows2	typeref:struct:Dd_windows2::Dd_windows2	file:
+next	rdt_sender.cc	/^	struct Dd_VTimer *next;$/;"	m	struct:Dd_VTimer	typeref:struct:Dd_VTimer::Dd_VTimer	file:
+next	rdt_sender.cc	/^	struct Dd_windows * next;$/;"	m	struct:Dd_windows	typeref:struct:Dd_windows::Dd_windows	file:
 next	rdt_sim.cc	/^    class Event *next;      \/* next event in the chain *\/$/;"	m	class:Event	typeref:class:Event::Event	file:
 next_event	rdt_sim.cc	/^    Event *next_event() {$/;"	f	class:EventChain
 outoforder_rate	rdt_sim.cc	/^double outoforder_rate;$/;"	v
 packet	rdt_struct.h	/^struct packet {$/;"	s
+packtomsg	rdt_receiver.cc	/^void packtomsg(struct packet * pkt)$/;"	f
+pk_log	rdt_sim.cc	/^ FILE * pk_log;$/;"	v
 pkt	rdt_sim.cc	/^    struct packet pkt;$/;"	m	class:EventReceiverFromLowerLayer	typeref:struct:EventReceiverFromLowerLayer::packet	file:
 pkt	rdt_sim.cc	/^    struct packet pkt;$/;"	m	class:EventSenderFromLowerLayer	typeref:struct:EventSenderFromLowerLayer::packet	file:
 pkt_latency	rdt_sim.cc	/^const double pkt_latency = 0.1;$/;"	v
+rec_log	rdt_receiver.cc	/^FILE * rec_log;$/;"	v
 sched_time	rdt_sim.cc	/^    double sched_time;      \/* scheduled occuring time *\/$/;"	m	class:Event	file:
 schedule	rdt_sim.cc	/^    void schedule(Event *e) {$/;"	f	class:EventChain
+send_log	rdt_sender.cc	/^FILE * send_log;$/;"	v
 sender_timer	rdt_sim.cc	/^Event *sender_timer = NULL;$/;"	v
 sim_core	rdt_sim.cc	/^EventChain sim_core;$/;"	v
 sim_time	rdt_sim.cc	/^    double sim_time;        \/* simulation time *\/$/;"	m	class:EventChain	file:
 sim_time	rdt_sim.cc	/^double sim_time;$/;"	v
+size	rdt_receiver.cc	/^	int size;$/;"	m	struct:Dd_windows2	file:
+size	rdt_sender.cc	/^	int size;$/;"	m	struct:Dd_windows	file:
 size	rdt_struct.h	/^    int size;$/;"	m	struct:message
 time	rdt_sim.cc	/^    double time() { return sim_time; }$/;"	f	class:EventChain
+timer	rdt_sender.cc	/^	double timer;$/;"	m	struct:Dd_VTimer	file:
+tot_acks	rdt_receiver.cc	/^static int tot_acks=0;$/;"	v	file:
 tot_chars_delivered	rdt_sim.cc	/^int tot_chars_delivered = 0;$/;"	v
 tot_chars_sent	rdt_sim.cc	/^int tot_chars_sent = 0;$/;"	v
+tot_message	rdt_sender.cc	/^static unsigned int tot_message=0;$/;"	v	file:
+tot_packets	rdt_sender.cc	/^static int tot_packets=0;$/;"	v	file:
 tot_pkts_passed	rdt_sim.cc	/^int tot_pkts_passed = 0;$/;"	v
 tracing_level	rdt_sim.cc	/^int tracing_level;$/;"	v

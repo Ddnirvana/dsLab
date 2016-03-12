@@ -23,7 +23,8 @@
  * Log file
  */
  FILE * pk_log;
-
+ FILE * pt_log;
+ FILE * event_log;
 /*[]------------------------------------------------------------------------[]
   |  generic event chain framework
   []------------------------------------------------------------------------[]*/
@@ -288,7 +289,7 @@ void Sender_ToLowerLayer(struct packet *pkt)
     fprintf(pk_log,"message:%u,seq:%d,ack:%d:\n",messid,pkt->data[1],pkt->data[2]);
     fprintf(pk_log,"id1:%d,id2:%d\n",pkt->data[3],pkt->data[4]);
     for (int i=0;i<pktsize;i++)
-    	fprintf(pk_log,"%c",pkt->data[5+i]);
+    	fprintf(pk_log,"%c",pkt->data[7+i]);
     fprintf(pk_log,"\n");
     fflush(pk_log);
     /* packet lost at rate "loss_rate" */
@@ -347,18 +348,20 @@ void Receiver_ToLowerLayer(struct packet *pkt)
 void Receiver_ToUpperLayer(struct message *msg)
 {
     static char cnt = 0;
-
+    static int msgnum=0;
+    fprintf(pt_log,"msg receiver:%d\n",msgnum++);
     for (int i=0; i<msg->size; i++) {
 	/* message verification */
 	if (msg->data[i] != '0' + cnt) {
 	    message_verfication_passed = false;
 	}
 	cnt = (cnt+1) % 10;
-
+        fprintf(pt_log,"%c",msg->data[i]);
 	if (tracing_level>=2)
 	    fputc(msg->data[i], stdout);
     }
-
+    fprintf(pt_log,"\n");
+    if (!message_verfication_passed) fprintf(pt_log,"verification invalid %d\n",msgnum-1);
     tot_chars_delivered += msg->size;
 }
 
@@ -366,12 +369,16 @@ void log_init()
 {
 	pk_log=fopen("pk_log","w");
 	fprintf(pk_log,"Hello,log\n");
+	pt_log=fopen("pt_log","w");
+	event_log=fopen("event_log","w");
 	fflush(pk_log);
 }
 
 void log_finish()
 {
 	fclose(pk_log);
+	fclose(pt_log);
+	fclose(event_log);
 }
 
 /*[]------------------------------------------------------------------------[]
@@ -470,6 +477,7 @@ int main(int argc, char *argv[])
 	switch (e->event_type) {
 	case EVENT_SENDER_FROMUPPERLAYER:
 	    {
+	    	fprintf(event_log,"event:EVENT_SENDER_FROMUPPERLAYER at time:%.2fs\n",sim_core.time());
 		if (tracing_level>=1) {
 		    fprintf(stdout, "Time %.2fs (Sender): the upper layer instructs rdt layer to send out a message.\n", sim_core.time());
 		}
@@ -493,6 +501,7 @@ int main(int argc, char *argv[])
 
 	case EVENT_SENDER_FROMLOWERLAYER:
 	    {
+	    	fprintf(event_log,"event:EVENT_SENDER_FROMLOWERLAYER at time:%.2fs\n",sim_core.time());
 		if (tracing_level>=1) {
 		    fprintf(stdout, "Time %.2fs (Sender): the lower layer informs the rdt layer that a packet is received from the link.\n", sim_core.time());
 		}
@@ -507,6 +516,7 @@ int main(int argc, char *argv[])
 
 	case EVENT_SENDER_TIMEOUT:
 	    {
+	    	fprintf(event_log,"event:EVENT_SENDER_TIMEROUT at time:%.2fs\n",sim_core.time());
 		if (tracing_level>=1) {
 		    fprintf(stdout, "Time %.2fs (Sender): the timer expires.\n", sim_core.time());
 		}
@@ -521,6 +531,7 @@ int main(int argc, char *argv[])
 
 	case EVENT_RECEIVER_FROMLOWERLAYER:
 	    {
+	    	fprintf(event_log,"event:EVENT_RECEIVER_FROMLOWERLAYER at time:%.2fs\n",sim_core.time());
 		if (tracing_level>=1) {
 		    fprintf(stdout, "Time %.2fs (Receiver): the lower layer informs the rdt layer that a packet is received from the link.\n", sim_core.time());
 		}
@@ -534,6 +545,7 @@ int main(int argc, char *argv[])
 	    break;
 
 	default:
+	    fprintf(event_log,"event:EVENT_UNDEFINED at time:%.2fs\n",sim_core.time());
 	    fprintf(stderr, "undefined event %d\n", e->event_type);
 	    break;
 	}
