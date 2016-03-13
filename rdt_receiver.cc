@@ -76,9 +76,10 @@ void packtomsg(struct packet * pkt)
 		}
 	}
 	int pac_seq= pkt->data[1];
-	int header_size = 7;
+	int header_size = 9;
 	int maxpayload_size= RDT_PKTSIZE- header_size;
 	int packetsize=pkt->data[0];
+	if (packetsize > maxpayload_size || pac_seq<0) return ;
 	int targetSize= maxpayload_size * pac_seq + packetsize;
 
 	if (tmpwind->lastseq==-2)  {Receiver_SendBackAck(msgid); return;}
@@ -87,8 +88,14 @@ void packtomsg(struct packet * pkt)
 	if (tmpwind->size < targetSize){
 		tmpwind->size=targetSize;
 		tmpwind->data=(char *)realloc(tmpwind->data,targetSize);
+		if (!tmpwind) fprintf(rec_log,"omg! realloc kill me!\n");
 	}
+	fprintf(rec_log,"mcp:1 s\n");
+	fprintf(rec_log,"merge packet size:%d,seq:%d\n",packetsize,pac_seq);
+	fflush(rec_log);
 	memcpy(tmpwind->data+maxpayload_size * pac_seq,pkt->data+ header_size,packetsize);
+	fprintf(rec_log,"mcp:1 e\n");
+	fflush(rec_log);
 	tmpwind->flag[pac_seq] =1;
 	if (pkt->data[2]==2) tmpwind->lastseq=pac_seq;
 }
@@ -198,7 +205,11 @@ void checkfinish(){
 	    if (msg->size<0) msg->size=0;
 	    msg->data = (char*) malloc(msg->size);
 	    ASSERT(msg->data!=NULL);
+	    fprintf(rec_log,"mcp:2 s\n");
+	    fflush(rec_log);
 	    memcpy(msg->data, dd_recwind->data, msg->size);
+	    fprintf(rec_log,"mcp:2 e\n");
+	    fflush(rec_log);
 	    Receiver_ToUpperLayer(msg);
 
 	    /* don't forget to free the space */

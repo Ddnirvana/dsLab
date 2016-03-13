@@ -1,0 +1,2792 @@
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10013
+Dd:Total packets need send:13925
+At 1004.41s: sender finalizing ...
+Dd: total ack packets:22310
+At 1004.41s: receiver finalizing ...
+
+## Simulation completed at time 1004.41s with
+	998622 characters sent
+	998904 characters delivered
+	56050 packets passed between the sender and the receiver
+## Something is wrong! This session is NOT error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:9953
+Dd:Total packets need send:13826
+At 1001.39s: sender finalizing ...
+Dd: total ack packets:22291
+At 1001.39s: receiver finalizing ...
+
+## Simulation completed at time 1001.39s with
+	991974 characters sent
+	991974 characters delivered
+	55912 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10104
+Dd:Total packets need send:14093
+At 1002.89s: sender finalizing ...
+Dd: total ack packets:22384
+At 1002.89s: receiver finalizing ...
+
+## Simulation completed at time 1002.89s with
+	1011935 characters sent
+	1011935 characters delivered
+	56330 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:9996
+Dd:Total packets need send:13920
+At 1002.91s: sender finalizing ...
+Dd: total ack packets:22315
+At 1002.91s: receiver finalizing ...
+
+## Simulation completed at time 1002.91s with
+	998661 characters sent
+	998661 characters delivered
+	56194 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10083
+Dd:Total packets need send:14037
+At 1002.88s: sender finalizing ...
+Dd: total ack packets:22472
+At 1002.88s: receiver finalizing ...
+
+## Simulation completed at time 1002.88s with
+	998096 characters sent
+	998096 characters delivered
+	56355 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10064
+Dd:Total packets need send:14077
+At 1002.14s: sender finalizing ...
+Dd: total ack packets:22411
+At 1002.14s: receiver finalizing ...
+
+## Simulation completed at time 1002.14s with
+	1010596 characters sent
+	1010596 characters delivered
+	56425 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10016
+Dd:Total packets need send:13993
+At 1001.86s: sender finalizing ...
+Dd: total ack packets:22446
+At 1001.86s: receiver finalizing ...
+
+## Simulation completed at time 1001.86s with
+	1005018 characters sent
+	1005018 characters delivered
+	56524 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10008
+Dd:Total packets need send:14014
+At 1006.41s: sender finalizing ...
+Dd: total ack packets:22471
+At 1006.41s: receiver finalizing ...
+
+## Simulation completed at time 1006.41s with
+	1008333 characters sent
+	1008333 characters delivered
+	56505 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10010
+Dd:Total packets need send:13956
+At 1002.16s: sender finalizing ...
+Dd: total ack packets:22271
+At 1002.16s: receiver finalizing ...
+
+## Simulation completed at time 1002.16s with
+	1002826 characters sent
+	1002826 characters delivered
+	55898 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10069
+Dd:Total packets need send:13957
+At 1003.75s: sender finalizing ...
+Dd: total ack packets:22116
+At 1003.75s: receiver finalizing ...
+
+## Simulation completed at time 1003.75s with
+	1003630 characters sent
+	1003630 characters delivered
+	55618 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10059
+Dd:Total packets need send:13932
+At 1004.05s: sender finalizing ...
+Dd: total ack packets:22263
+At 1004.05s: receiver finalizing ...
+
+## Simulation completed at time 1004.05s with
+	993992 characters sent
+	993992 characters delivered
+	55902 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10143
+Dd:Total packets need send:14099
+At 1003.34s: sender finalizing ...
+Dd: total ack packets:22646
+At 1003.34s: receiver finalizing ...
+
+## Simulation completed at time 1003.34s with
+	1014319 characters sent
+	1014319 characters delivered
+	56860 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10086
+Dd:Total packets need send:14053
+At 1003.10s: sender finalizing ...
+Dd: total ack packets:22557
+At 1003.10s: receiver finalizing ...
+
+## Simulation completed at time 1003.10s with
+	1002545 characters sent
+	1002545 characters delivered
+	56959 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10025
+Dd:Total packets need send:13957
+At 1002.75s: sender finalizing ...
+Dd: total ack packets:22415
+At 1002.75s: receiver finalizing ...
+
+## Simulation completed at time 1002.75s with
+	1000931 characters sent
+	1000931 characters delivered
+	56267 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:9990
+Dd:Total packets need send:13864
+At 1001.78s: sender finalizing ...
+Dd: total ack packets:22290
+At 1001.78s: receiver finalizing ...
+
+## Simulation completed at time 1001.78s with
+	995324 characters sent
+	995324 characters delivered
+	55763 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10040
+Dd:Total packets need send:14003
+At 1001.81s: sender finalizing ...
+Dd: total ack packets:22323
+At 1001.81s: receiver finalizing ...
+
+## Simulation completed at time 1001.81s with
+	1005001 characters sent
+	1005001 characters delivered
+	56233 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10103
+Dd:Total packets need send:13998
+At 1002.28s: sender finalizing ...
+Dd: total ack packets:22642
+At 1002.28s: receiver finalizing ...
+
+## Simulation completed at time 1002.28s with
+	1000588 characters sent
+	1000588 characters delivered
+	56855 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:9988
+Dd:Total packets need send:13925
+At 1003.00s: sender finalizing ...
+Dd: total ack packets:22218
+At 1003.00s: receiver finalizing ...
+
+## Simulation completed at time 1003.00s with
+	1000992 characters sent
+	1000992 characters delivered
+	56046 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10092
+Dd:Total packets need send:14016
+At 1003.92s: sender finalizing ...
+Dd: total ack packets:22487
+At 1003.92s: receiver finalizing ...
+
+## Simulation completed at time 1003.92s with
+	1002031 characters sent
+	1002504 characters delivered
+	56737 packets passed between the sender and the receiver
+## Something is wrong! This session is NOT error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10132
+Dd:Total packets need send:13978
+At 1004.24s: sender finalizing ...
+Dd: total ack packets:22394
+At 1004.24s: receiver finalizing ...
+
+## Simulation completed at time 1004.24s with
+	993850 characters sent
+	993850 characters delivered
+	56414 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10031
+Dd:Total packets need send:13831
+At 1004.78s: sender finalizing ...
+Dd: total ack packets:22621
+At 1004.78s: receiver finalizing ...
+
+## Simulation completed at time 1004.78s with
+	981997 characters sent
+	981997 characters delivered
+	56375 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:9975
+Dd:Total packets need send:13739
+At 1002.71s: sender finalizing ...
+Dd: total ack packets:22372
+At 1002.71s: receiver finalizing ...
+
+## Simulation completed at time 1002.71s with
+	978503 characters sent
+	978503 characters delivered
+	55632 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:9950
+Dd:Total packets need send:13900
+At 1002.99s: sender finalizing ...
+Dd: total ack packets:22198
+At 1002.99s: receiver finalizing ...
+
+## Simulation completed at time 1002.99s with
+	995780 characters sent
+	995780 characters delivered
+	55954 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10005
+Dd:Total packets need send:13918
+At 1002.09s: sender finalizing ...
+Dd: total ack packets:22278
+At 1002.09s: receiver finalizing ...
+
+## Simulation completed at time 1002.09s with
+	994174 characters sent
+	994174 characters delivered
+	56005 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10048
+Dd:Total packets need send:13887
+At 1001.94s: sender finalizing ...
+Dd: total ack packets:22415
+At 1001.94s: receiver finalizing ...
+
+## Simulation completed at time 1001.94s with
+	991329 characters sent
+	991329 characters delivered
+	56127 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:9971
+Dd:Total packets need send:13788
+At 1002.96s: sender finalizing ...
+Dd: total ack packets:22155
+At 1002.96s: receiver finalizing ...
+
+## Simulation completed at time 1002.96s with
+	985195 characters sent
+	985195 characters delivered
+	55669 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:9960
+Dd:Total packets need send:13876
+At 1004.13s: sender finalizing ...
+Dd: total ack packets:22163
+At 1004.13s: receiver finalizing ...
+
+## Simulation completed at time 1004.13s with
+	991456 characters sent
+	991456 characters delivered
+	55984 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:9991
+Dd:Total packets need send:13879
+At 1002.47s: sender finalizing ...
+Dd: total ack packets:22324
+At 1002.47s: receiver finalizing ...
+
+## Simulation completed at time 1002.47s with
+	992460 characters sent
+	992460 characters delivered
+	56198 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:9991
+Dd:Total packets need send:13883
+At 1002.28s: sender finalizing ...
+Dd: total ack packets:22432
+At 1002.28s: receiver finalizing ...
+
+## Simulation completed at time 1002.28s with
+	992156 characters sent
+	992156 characters delivered
+	56294 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10026
+Dd:Total packets need send:13869
+At 1002.85s: sender finalizing ...
+Dd: total ack packets:22247
+At 1002.85s: receiver finalizing ...
+
+## Simulation completed at time 1002.85s with
+	992553 characters sent
+	992553 characters delivered
+	55594 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10062
+Dd:Total packets need send:13988
+At 1003.36s: sender finalizing ...
+Dd: total ack packets:22532
+At 1003.36s: receiver finalizing ...
+
+## Simulation completed at time 1003.36s with
+	999644 characters sent
+	999644 characters delivered
+	56404 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10037
+Dd:Total packets need send:13957
+At 1003.31s: sender finalizing ...
+Dd: total ack packets:22443
+At 1003.31s: receiver finalizing ...
+
+## Simulation completed at time 1003.31s with
+	998729 characters sent
+	998729 characters delivered
+	56292 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10069
+Dd:Total packets need send:14032
+At 1002.16s: sender finalizing ...
+Dd: total ack packets:22502
+At 1002.16s: receiver finalizing ...
+
+## Simulation completed at time 1002.16s with
+	1003807 characters sent
+	1003807 characters delivered
+	56742 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10094
+Dd:Total packets need send:14042
+At 1004.58s: sender finalizing ...
+Dd: total ack packets:22557
+At 1004.58s: receiver finalizing ...
+
+## Simulation completed at time 1004.58s with
+	1009655 characters sent
+	1009949 characters delivered
+	56511 packets passed between the sender and the receiver
+## Something is wrong! This session is NOT error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:9980
+Dd:Total packets need send:13819
+At 1003.75s: sender finalizing ...
+Dd: total ack packets:22353
+At 1003.75s: receiver finalizing ...
+
+## Simulation completed at time 1003.75s with
+	994443 characters sent
+	994443 characters delivered
+	55737 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10059
+Dd:Total packets need send:14004
+At 1003.96s: sender finalizing ...
+Dd: total ack packets:22434
+At 1003.96s: receiver finalizing ...
+
+## Simulation completed at time 1003.96s with
+	1005991 characters sent
+	1005991 characters delivered
+	55979 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:9987
+Dd:Total packets need send:13862
+At 1003.81s: sender finalizing ...
+Dd: total ack packets:22202
+At 1003.81s: receiver finalizing ...
+
+## Simulation completed at time 1003.81s with
+	990406 characters sent
+	990406 characters delivered
+	55605 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:9964
+Dd:Total packets need send:13883
+At 1003.22s: sender finalizing ...
+Dd: total ack packets:21891
+At 1003.22s: receiver finalizing ...
+
+## Simulation completed at time 1003.22s with
+	996738 characters sent
+	996738 characters delivered
+	55295 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10025
+Dd:Total packets need send:13981
+At 1003.10s: sender finalizing ...
+Dd: total ack packets:22307
+At 1003.10s: receiver finalizing ...
+
+## Simulation completed at time 1003.10s with
+	997985 characters sent
+	997985 characters delivered
+	55714 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10021
+Dd:Total packets need send:13979
+At 1003.99s: sender finalizing ...
+Dd: total ack packets:22465
+At 1003.99s: receiver finalizing ...
+
+## Simulation completed at time 1003.99s with
+	1001061 characters sent
+	1001061 characters delivered
+	56249 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:9991
+Dd:Total packets need send:13925
+At 1001.76s: sender finalizing ...
+Dd: total ack packets:22097
+At 1001.76s: receiver finalizing ...
+
+## Simulation completed at time 1001.76s with
+	995599 characters sent
+	995599 characters delivered
+	55621 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10028
+Dd:Total packets need send:13948
+At 1003.06s: sender finalizing ...
+Dd: total ack packets:22312
+At 1003.06s: receiver finalizing ...
+
+## Simulation completed at time 1003.06s with
+	994123 characters sent
+	995001 characters delivered
+	56174 packets passed between the sender and the receiver
+## Something is wrong! This session is NOT error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10062
+Dd:Total packets need send:14046
+At 1001.48s: sender finalizing ...
+Dd: total ack packets:22244
+At 1001.48s: receiver finalizing ...
+
+## Simulation completed at time 1001.48s with
+	1005588 characters sent
+	1005588 characters delivered
+	55887 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10008
+Dd:Total packets need send:13811
+At 1002.42s: sender finalizing ...
+Dd: total ack packets:22447
+At 1002.42s: receiver finalizing ...
+
+## Simulation completed at time 1002.42s with
+	989828 characters sent
+	989828 characters delivered
+	56078 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:9989
+Dd:Total packets need send:13943
+At 1001.82s: sender finalizing ...
+Dd: total ack packets:22135
+At 1001.82s: receiver finalizing ...
+
+## Simulation completed at time 1001.82s with
+	1001100 characters sent
+	1001100 characters delivered
+	55909 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:9979
+Dd:Total packets need send:13944
+At 1002.44s: sender finalizing ...
+Dd: total ack packets:22180
+At 1002.44s: receiver finalizing ...
+
+## Simulation completed at time 1002.44s with
+	997509 characters sent
+	997509 characters delivered
+	55741 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10082
+Dd:Total packets need send:14063
+At 1001.68s: sender finalizing ...
+Dd: total ack packets:22507
+At 1001.68s: receiver finalizing ...
+
+## Simulation completed at time 1001.68s with
+	1007628 characters sent
+	1007628 characters delivered
+	56620 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:9952
+Dd:Total packets need send:13794
+At 1002.76s: sender finalizing ...
+Dd: total ack packets:22079
+At 1002.76s: receiver finalizing ...
+
+## Simulation completed at time 1002.76s with
+	987920 characters sent
+	987920 characters delivered
+	55527 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10000
+Dd:Total packets need send:13874
+At 1002.62s: sender finalizing ...
+Dd: total ack packets:22078
+At 1002.62s: receiver finalizing ...
+
+## Simulation completed at time 1002.62s with
+	990175 characters sent
+	990175 characters delivered
+	55743 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:9994
+Dd:Total packets need send:13853
+At 1004.77s: sender finalizing ...
+Dd: total ack packets:22010
+At 1004.77s: receiver finalizing ...
+
+## Simulation completed at time 1004.77s with
+	986905 characters sent
+	986905 characters delivered
+	55204 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:9987
+Dd:Total packets need send:13857
+At 1003.27s: sender finalizing ...
+Dd: total ack packets:22217
+At 1003.27s: receiver finalizing ...
+
+## Simulation completed at time 1003.27s with
+	992180 characters sent
+	992180 characters delivered
+	55631 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10038
+Dd:Total packets need send:14018
+At 1002.57s: sender finalizing ...
+Dd: total ack packets:22256
+At 1002.57s: receiver finalizing ...
+
+## Simulation completed at time 1002.57s with
+	1005547 characters sent
+	1005547 characters delivered
+	55922 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10046
+Dd:Total packets need send:13999
+At 1004.86s: sender finalizing ...
+Dd: total ack packets:22329
+At 1004.86s: receiver finalizing ...
+
+## Simulation completed at time 1004.86s with
+	998635 characters sent
+	998635 characters delivered
+	56214 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10023
+Dd:Total packets need send:13942
+At 1001.78s: sender finalizing ...
+Dd: total ack packets:22275
+At 1001.78s: receiver finalizing ...
+
+## Simulation completed at time 1001.78s with
+	999680 characters sent
+	999680 characters delivered
+	55814 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10037
+Dd:Total packets need send:14007
+At 1006.44s: sender finalizing ...
+Dd: total ack packets:22423
+At 1006.44s: receiver finalizing ...
+
+## Simulation completed at time 1006.44s with
+	1002025 characters sent
+	1002025 characters delivered
+	56428 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:9951
+Dd:Total packets need send:13736
+At 1002.40s: sender finalizing ...
+Dd: total ack packets:22170
+At 1002.40s: receiver finalizing ...
+
+## Simulation completed at time 1002.40s with
+	981518 characters sent
+	981518 characters delivered
+	55755 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10022
+Dd:Total packets need send:13947
+At 1001.26s: sender finalizing ...
+Dd: total ack packets:22268
+At 1001.26s: receiver finalizing ...
+
+## Simulation completed at time 1001.26s with
+	998892 characters sent
+	998892 characters delivered
+	56225 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10021
+Dd:Total packets need send:13916
+At 1002.15s: sender finalizing ...
+Dd: total ack packets:22418
+At 1002.15s: receiver finalizing ...
+
+## Simulation completed at time 1002.15s with
+	1002102 characters sent
+	1002102 characters delivered
+	55956 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10080
+Dd:Total packets need send:14020
+At 1001.93s: sender finalizing ...
+Dd: total ack packets:22408
+At 1001.93s: receiver finalizing ...
+
+## Simulation completed at time 1001.93s with
+	1003271 characters sent
+	1003271 characters delivered
+	56650 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10015
+Dd:Total packets need send:13893
+At 1001.92s: sender finalizing ...
+Dd: total ack packets:22448
+At 1001.92s: receiver finalizing ...
+
+## Simulation completed at time 1001.92s with
+	1000593 characters sent
+	1000593 characters delivered
+	56307 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:9966
+Dd:Total packets need send:13852
+At 1006.55s: sender finalizing ...
+Dd: total ack packets:22365
+At 1006.55s: receiver finalizing ...
+
+## Simulation completed at time 1006.55s with
+	991498 characters sent
+	991498 characters delivered
+	55832 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10070
+Dd:Total packets need send:13956
+At 1003.20s: sender finalizing ...
+Dd: total ack packets:22484
+At 1003.20s: receiver finalizing ...
+
+## Simulation completed at time 1003.20s with
+	994784 characters sent
+	994784 characters delivered
+	56444 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10035
+Dd:Total packets need send:14009
+At 1001.87s: sender finalizing ...
+Dd: total ack packets:22506
+At 1001.87s: receiver finalizing ...
+
+## Simulation completed at time 1001.87s with
+	1002270 characters sent
+	1002270 characters delivered
+	56563 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10090
+Dd:Total packets need send:14076
+At 1005.62s: sender finalizing ...
+Dd: total ack packets:22470
+At 1005.62s: receiver finalizing ...
+
+## Simulation completed at time 1005.62s with
+	1006119 characters sent
+	1006119 characters delivered
+	56346 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10045
+Dd:Total packets need send:13927
+At 1003.23s: sender finalizing ...
+Dd: total ack packets:22524
+At 1003.23s: receiver finalizing ...
+
+## Simulation completed at time 1003.23s with
+	993836 characters sent
+	993836 characters delivered
+	56444 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:9922
+Dd:Total packets need send:13792
+At 1004.85s: sender finalizing ...
+Dd: total ack packets:22260
+At 1004.85s: receiver finalizing ...
+
+## Simulation completed at time 1004.85s with
+	986664 characters sent
+	986664 characters delivered
+	55747 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:9891
+Dd:Total packets need send:13774
+At 1002.44s: sender finalizing ...
+Dd: total ack packets:22186
+At 1002.44s: receiver finalizing ...
+
+## Simulation completed at time 1002.44s with
+	989487 characters sent
+	989487 characters delivered
+	55452 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:9994
+Dd:Total packets need send:13806
+At 1001.36s: sender finalizing ...
+Dd: total ack packets:22194
+At 1001.36s: receiver finalizing ...
+
+## Simulation completed at time 1001.36s with
+	990128 characters sent
+	990128 characters delivered
+	55970 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10009
+Dd:Total packets need send:13848
+At 1003.11s: sender finalizing ...
+Dd: total ack packets:22243
+At 1003.11s: receiver finalizing ...
+
+## Simulation completed at time 1003.11s with
+	995297 characters sent
+	995297 characters delivered
+	55757 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10087
+Dd:Total packets need send:13979
+At 1003.65s: sender finalizing ...
+Dd: total ack packets:22662
+At 1003.65s: receiver finalizing ...
+
+## Simulation completed at time 1003.65s with
+	1001496 characters sent
+	1001496 characters delivered
+	56605 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10101
+Dd:Total packets need send:14049
+At 1003.21s: sender finalizing ...
+Dd: total ack packets:22622
+At 1003.21s: receiver finalizing ...
+
+## Simulation completed at time 1003.21s with
+	1005709 characters sent
+	1005709 characters delivered
+	56711 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:9956
+Dd:Total packets need send:13893
+At 1002.47s: sender finalizing ...
+Dd: total ack packets:22082
+At 1002.47s: receiver finalizing ...
+
+## Simulation completed at time 1002.47s with
+	997288 characters sent
+	997288 characters delivered
+	55628 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10044
+Dd:Total packets need send:13995
+At 1001.97s: sender finalizing ...
+Dd: total ack packets:22352
+At 1001.97s: receiver finalizing ...
+
+## Simulation completed at time 1001.97s with
+	1004956 characters sent
+	1004956 characters delivered
+	56358 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:9961
+Dd:Total packets need send:13888
+At 1002.54s: sender finalizing ...
+Dd: total ack packets:22150
+At 1002.54s: receiver finalizing ...
+
+## Simulation completed at time 1002.54s with
+	995659 characters sent
+	995659 characters delivered
+	55976 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10047
+Dd:Total packets need send:14071
+At 1003.80s: sender finalizing ...
+Dd: total ack packets:22260
+At 1003.80s: receiver finalizing ...
+
+## Simulation completed at time 1003.80s with
+	1012264 characters sent
+	1012264 characters delivered
+	56327 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:9977
+Dd:Total packets need send:13782
+At 1001.51s: sender finalizing ...
+Dd: total ack packets:22106
+At 1001.51s: receiver finalizing ...
+
+## Simulation completed at time 1001.51s with
+	979289 characters sent
+	979289 characters delivered
+	55213 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:9968
+Dd:Total packets need send:13939
+At 1004.05s: sender finalizing ...
+Dd: total ack packets:22418
+At 1004.05s: receiver finalizing ...
+
+## Simulation completed at time 1004.05s with
+	994177 characters sent
+	994657 characters delivered
+	56538 packets passed between the sender and the receiver
+## Something is wrong! This session is NOT error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:9932
+Dd:Total packets need send:13792
+At 1005.05s: sender finalizing ...
+Dd: total ack packets:22134
+At 1005.05s: receiver finalizing ...
+
+## Simulation completed at time 1005.05s with
+	985603 characters sent
+	985603 characters delivered
+	55878 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:9978
+Dd:Total packets need send:13899
+At 1003.00s: sender finalizing ...
+Dd: total ack packets:22135
+At 1003.00s: receiver finalizing ...
+
+## Simulation completed at time 1003.00s with
+	995944 characters sent
+	996807 characters delivered
+	55497 packets passed between the sender and the receiver
+## Something is wrong! This session is NOT error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:9997
+Dd:Total packets need send:13976
+At 1004.89s: sender finalizing ...
+Dd: total ack packets:22316
+At 1004.89s: receiver finalizing ...
+
+## Simulation completed at time 1004.89s with
+	1003557 characters sent
+	1003557 characters delivered
+	56301 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10020
+Dd:Total packets need send:13924
+At 1003.86s: sender finalizing ...
+Dd: total ack packets:22052
+At 1003.86s: receiver finalizing ...
+
+## Simulation completed at time 1003.86s with
+	998643 characters sent
+	998643 characters delivered
+	55767 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:9928
+Dd:Total packets need send:13838
+At 1003.34s: sender finalizing ...
+Dd: total ack packets:22298
+At 1003.34s: receiver finalizing ...
+
+## Simulation completed at time 1003.34s with
+	989917 characters sent
+	989917 characters delivered
+	55905 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:9982
+Dd:Total packets need send:13974
+At 1001.83s: sender finalizing ...
+Dd: total ack packets:22427
+At 1001.83s: receiver finalizing ...
+
+## Simulation completed at time 1001.83s with
+	1002529 characters sent
+	1002529 characters delivered
+	56458 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10020
+Dd:Total packets need send:14009
+At 1003.30s: sender finalizing ...
+Dd: total ack packets:22012
+At 1003.30s: receiver finalizing ...
+
+## Simulation completed at time 1003.30s with
+	1008470 characters sent
+	1008470 characters delivered
+	55733 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+Test:0
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:9925
+Dd:Total packets need send:13744
+At 1001.61s: sender finalizing ...
+Dd: total ack packets:21974
+At 1001.61s: receiver finalizing ...
+
+## Simulation completed at time 1001.61s with
+	986901 characters sent
+	986901 characters delivered
+	55164 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+Test:1
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10156
+Dd:Total packets need send:14082
+At 1004.36s: sender finalizing ...
+Dd: total ack packets:22593
+At 1004.36s: receiver finalizing ...
+
+## Simulation completed at time 1004.36s with
+	1007385 characters sent
+	1007385 characters delivered
+	56704 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+Test:2
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10025
+Dd:Total packets need send:13965
+At 1002.08s: sender finalizing ...
+Dd: total ack packets:22289
+At 1002.08s: receiver finalizing ...
+
+## Simulation completed at time 1002.08s with
+	1001479 characters sent
+	1001479 characters delivered
+	55989 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+Test:3
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:9995
+Dd:Total packets need send:13807
+At 1002.86s: sender finalizing ...
+Dd: total ack packets:22269
+At 1002.86s: receiver finalizing ...
+
+## Simulation completed at time 1002.86s with
+	986041 characters sent
+	986041 characters delivered
+	55682 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+Test:4
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:9933
+Dd:Total packets need send:13820
+At 1002.95s: sender finalizing ...
+Dd: total ack packets:22238
+At 1002.95s: receiver finalizing ...
+
+## Simulation completed at time 1002.95s with
+	988159 characters sent
+	988159 characters delivered
+	56013 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+Test:5
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10043
+Dd:Total packets need send:13940
+At 1003.10s: sender finalizing ...
+Dd: total ack packets:22586
+At 1003.10s: receiver finalizing ...
+
+## Simulation completed at time 1003.10s with
+	991675 characters sent
+	991675 characters delivered
+	56504 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+Test:6
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10062
+Dd:Total packets need send:14018
+At 1001.86s: sender finalizing ...
+Dd: total ack packets:22479
+At 1001.86s: receiver finalizing ...
+
+## Simulation completed at time 1001.86s with
+	1001319 characters sent
+	1001319 characters delivered
+	56765 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+Test:7
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:9978
+Dd:Total packets need send:13922
+At 1002.89s: sender finalizing ...
+Dd: total ack packets:22444
+At 1002.89s: receiver finalizing ...
+
+## Simulation completed at time 1002.89s with
+	1000303 characters sent
+	1000303 characters delivered
+	56345 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+Test:8
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10028
+Dd:Total packets need send:13909
+At 1003.29s: sender finalizing ...
+Dd: total ack packets:22344
+At 1003.29s: receiver finalizing ...
+
+## Simulation completed at time 1003.29s with
+	992700 characters sent
+	992700 characters delivered
+	55963 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+Test:9
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:9998
+Dd:Total packets need send:13905
+At 1001.55s: sender finalizing ...
+Dd: total ack packets:22357
+At 1001.55s: receiver finalizing ...
+
+## Simulation completed at time 1001.55s with
+	999035 characters sent
+	999035 characters delivered
+	55877 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+Test:10
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:9999
+Dd:Total packets need send:13807
+At 1002.69s: sender finalizing ...
+Dd: total ack packets:22296
+At 1002.69s: receiver finalizing ...
+
+## Simulation completed at time 1002.69s with
+	982453 characters sent
+	982597 characters delivered
+	55709 packets passed between the sender and the receiver
+## Something is wrong! This session is NOT error-free, loss-free, and in order.
+Test:11
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:9990
+Dd:Total packets need send:13972
+At 1004.30s: sender finalizing ...
+Dd: total ack packets:22310
+At 1004.30s: receiver finalizing ...
+
+## Simulation completed at time 1004.30s with
+	1002132 characters sent
+	1002132 characters delivered
+	56024 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+Test:12
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10066
+Dd:Total packets need send:13934
+At 1003.34s: sender finalizing ...
+Dd: total ack packets:22561
+At 1003.34s: receiver finalizing ...
+
+## Simulation completed at time 1003.34s with
+	998206 characters sent
+	998206 characters delivered
+	56578 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+Test:13
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10027
+Dd:Total packets need send:13957
+At 1004.34s: sender finalizing ...
+Dd: total ack packets:22508
+At 1004.34s: receiver finalizing ...
+
+## Simulation completed at time 1004.34s with
+	999873 characters sent
+	999873 characters delivered
+	56357 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+Test:14
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:9911
+Dd:Total packets need send:13753
+At 1004.13s: sender finalizing ...
+Dd: total ack packets:22202
+At 1004.13s: receiver finalizing ...
+
+## Simulation completed at time 1004.13s with
+	984871 characters sent
+	984871 characters delivered
+	55754 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+Test:15
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10020
+Dd:Total packets need send:13976
+At 1004.76s: sender finalizing ...
+Dd: total ack packets:22425
+At 1004.76s: receiver finalizing ...
+
+## Simulation completed at time 1004.76s with
+	1007154 characters sent
+	1007154 characters delivered
+	56420 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+Test:16
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10006
+Dd:Total packets need send:13828
+At 1001.64s: sender finalizing ...
+Dd: total ack packets:22422
+At 1001.64s: receiver finalizing ...
+
+## Simulation completed at time 1001.64s with
+	986801 characters sent
+	986801 characters delivered
+	56098 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+Test:17
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10011
+Dd:Total packets need send:13990
+At 1001.71s: sender finalizing ...
+Dd: total ack packets:22433
+At 1001.71s: receiver finalizing ...
+
+## Simulation completed at time 1001.71s with
+	1007442 characters sent
+	1007442 characters delivered
+	56334 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+Test:18
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10012
+Dd:Total packets need send:13947
+At 1002.37s: sender finalizing ...
+Dd: total ack packets:22399
+At 1002.37s: receiver finalizing ...
+
+## Simulation completed at time 1002.37s with
+	996332 characters sent
+	996332 characters delivered
+	56097 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+Test:19
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10052
+Dd:Total packets need send:13944
+At 1003.79s: sender finalizing ...
+Dd: total ack packets:22244
+At 1003.79s: receiver finalizing ...
+
+## Simulation completed at time 1003.79s with
+	997944 characters sent
+	997944 characters delivered
+	55802 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+Test:20
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:9923
+Dd:Total packets need send:13769
+At 1002.61s: sender finalizing ...
+Dd: total ack packets:21862
+At 1002.61s: receiver finalizing ...
+
+## Simulation completed at time 1002.61s with
+	987996 characters sent
+	987996 characters delivered
+	55314 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+Test:21
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:9986
+Dd:Total packets need send:13896
+At 1005.52s: sender finalizing ...
+Dd: total ack packets:22223
+At 1005.52s: receiver finalizing ...
+
+## Simulation completed at time 1005.52s with
+	999789 characters sent
+	999789 characters delivered
+	55959 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+Test:22
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:9874
+Dd:Total packets need send:13683
+At 1005.00s: sender finalizing ...
+Dd: total ack packets:21901
+At 1005.00s: receiver finalizing ...
+
+## Simulation completed at time 1005.00s with
+	983250 characters sent
+	983250 characters delivered
+	55097 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+Test:23
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10014
+Dd:Total packets need send:13939
+At 1003.73s: sender finalizing ...
+Dd: total ack packets:22434
+At 1003.73s: receiver finalizing ...
+
+## Simulation completed at time 1003.73s with
+	996523 characters sent
+	996523 characters delivered
+	56166 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+Test:24
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:9994
+Dd:Total packets need send:13911
+At 1001.88s: sender finalizing ...
+Dd: total ack packets:22389
+At 1001.88s: receiver finalizing ...
+
+## Simulation completed at time 1001.88s with
+	995706 characters sent
+	995706 characters delivered
+	55950 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+Test:25
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10080
+Dd:Total packets need send:13990
+At 1003.78s: sender finalizing ...
+Dd: total ack packets:22640
+At 1003.78s: receiver finalizing ...
+
+## Simulation completed at time 1003.78s with
+	1001273 characters sent
+	1001310 characters delivered
+	56469 packets passed between the sender and the receiver
+## Something is wrong! This session is NOT error-free, loss-free, and in order.
+Test:26
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10060
+Dd:Total packets need send:13945
+At 1001.78s: sender finalizing ...
+Dd: total ack packets:22432
+At 1001.78s: receiver finalizing ...
+
+## Simulation completed at time 1001.78s with
+	1000522 characters sent
+	1000522 characters delivered
+	56023 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+Test:27
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10003
+Dd:Total packets need send:13879
+At 1002.81s: sender finalizing ...
+Dd: total ack packets:22310
+At 1002.81s: receiver finalizing ...
+
+## Simulation completed at time 1002.81s with
+	992201 characters sent
+	992201 characters delivered
+	55794 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+Test:28
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:9994
+Dd:Total packets need send:13988
+At 1002.05s: sender finalizing ...
+Dd: total ack packets:22402
+At 1002.05s: receiver finalizing ...
+
+## Simulation completed at time 1002.05s with
+	1007999 characters sent
+	1007999 characters delivered
+	56403 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+Test:29
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10076
+Dd:Total packets need send:13962
+At 1001.12s: sender finalizing ...
+Dd: total ack packets:22383
+At 1001.12s: receiver finalizing ...
+
+## Simulation completed at time 1001.12s with
+	997902 characters sent
+	997902 characters delivered
+	56150 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+Test:30
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10049
+Dd:Total packets need send:13977
+At 1002.67s: sender finalizing ...
+Dd: total ack packets:22576
+At 1002.67s: receiver finalizing ...
+
+## Simulation completed at time 1002.67s with
+	1004414 characters sent
+	1004414 characters delivered
+	56411 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+Test:31
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10007
+Dd:Total packets need send:13953
+At 1004.98s: sender finalizing ...
+Dd: total ack packets:22488
+At 1004.98s: receiver finalizing ...
+
+## Simulation completed at time 1004.98s with
+	1000518 characters sent
+	1000518 characters delivered
+	56409 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+Test:32
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:9959
+Dd:Total packets need send:13833
+At 1003.57s: sender finalizing ...
+Dd: total ack packets:22272
+At 1003.57s: receiver finalizing ...
+
+## Simulation completed at time 1003.57s with
+	989737 characters sent
+	989737 characters delivered
+	55832 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+Test:33
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:9974
+Dd:Total packets need send:13839
+At 1001.69s: sender finalizing ...
+Dd: total ack packets:22121
+At 1001.69s: receiver finalizing ...
+
+## Simulation completed at time 1001.69s with
+	989777 characters sent
+	989777 characters delivered
+	55427 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+Test:34
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:9985
+Dd:Total packets need send:13869
+At 1001.74s: sender finalizing ...
+Dd: total ack packets:22190
+At 1001.74s: receiver finalizing ...
+
+## Simulation completed at time 1001.74s with
+	996817 characters sent
+	996817 characters delivered
+	55464 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+Test:35
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:9913
+Dd:Total packets need send:13753
+At 1002.74s: sender finalizing ...
+Dd: total ack packets:22296
+At 1002.74s: receiver finalizing ...
+
+## Simulation completed at time 1002.74s with
+	980455 characters sent
+	980455 characters delivered
+	56043 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+Test:36
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10069
+Dd:Total packets need send:14028
+At 1005.08s: sender finalizing ...
+Dd: total ack packets:22644
+At 1005.08s: receiver finalizing ...
+
+## Simulation completed at time 1005.08s with
+	1011001 characters sent
+	1011001 characters delivered
+	56555 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+Test:37
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:9948
+Dd:Total packets need send:13924
+At 1001.46s: sender finalizing ...
+Dd: total ack packets:22190
+At 1001.46s: receiver finalizing ...
+
+## Simulation completed at time 1001.46s with
+	999856 characters sent
+	999856 characters delivered
+	56001 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+Test:38
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:9945
+Dd:Total packets need send:13803
+At 1005.17s: sender finalizing ...
+Dd: total ack packets:22184
+At 1005.17s: receiver finalizing ...
+
+## Simulation completed at time 1005.17s with
+	980391 characters sent
+	980391 characters delivered
+	55393 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+Test:39
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:9895
+Dd:Total packets need send:13727
+At 1002.90s: sender finalizing ...
+Dd: total ack packets:22082
+At 1002.90s: receiver finalizing ...
+
+## Simulation completed at time 1002.90s with
+	986909 characters sent
+	986909 characters delivered
+	55274 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+Test:40
+## Reliable data transfer simulation with:
+	simulation time is 1000.000 seconds
+	average message arrival interval is 0.100 seconds
+	average message size is 100 bytes
+	average out-of-order delivery rate is 30.00%
+	average loss rate is 30.00%
+	average corrupt rate is 30.00%
+	tracing level is 0
+Please review these inputs and press <enter> to proceed.
+At 0.00s: sender initializing ...
+At 0.00s: receiver initializing ...
+Dd:TotaL messages amount:10013
+Dd:Total packets need send:13813
+At 1003.47s: sender finalizing ...
+Dd: total ack packets:22156
+At 1003.47s: receiver finalizing ...
+
+## Simulation completed at time 1003.47s with
+	979621 characters sent
+	979621 characters delivered
+	55422 packets passed between the sender and the receiver
+## Congratulations! This session is error-free, loss-free, and in order.
+Test:41

@@ -16,7 +16,7 @@
 
 /*
  * packet layout:
- * |<- 1 byte ->|<- 1 byte ->|<- 1 byte->|<- 2 byte ->|<-2 byte->|<-  the rest ->|
+ * |<- 1 byte ->|<- 1 byte ->|<- 1 byte->|<- 2 byte ->|<-4 byte->|<-  the rest ->|
  * |payload size|   seq no   |  ack      |  mesage no |  checksum|payload    |
  *
  *
@@ -66,7 +66,11 @@ void msgtowind(struct message * msg)
 	tmpwind->id=tot_message++;
 	tmpwind->size=msg->size;
 	tmpwind->data=(char *) malloc(tmpwind->size);
+	fprintf(send_log,"mcp:1 s\n");
+	fflush(send_log);
 	memcpy(tmpwind->data,msg->data,msg->size);
+	fprintf(send_log,"mcp:1 e\n");
+	fflush(send_log);
 	tmpwind->next = NULL;
 	
 	if (!dd_sendwind)
@@ -99,7 +103,7 @@ void msgoutwind(unsigned int msgid){
 }
 
 /*
- * not used by Now
+ * add a vtimer in the queue
  */
 void add_VTimer(unsigned int id){
 	struct Dd_VTimer * tmptimer=(struct Dd_VTimer *)malloc(sizeof(struct Dd_VTimer));
@@ -116,7 +120,45 @@ void add_VTimer(unsigned int id){
     	if (!Sender_isTimerSet())
     		Sender_StartTimer(f_timer->timer-GetSimulationTime());
 }
+void remove_VTimer(unsigned int id){
+	struct Dd_VTimer *tmptimer= f_timer;
+	struct Dd_VTimer *pretimer=NULL;
+	while (tmptimer){
+		if (tmptimer->id==id){
+			if (!pretimer) {
+				f_timer=f_timer->next;
+				if (f_timer)
+	    				Sender_StartTimer(f_timer->timer-GetSimulationTime());
+				if (!f_timer) l_timer=NULL;
+			}else{
+				pretimer->next=tmptimer->next;
+				if (!tmptimer->next) l_timer=pretimer;
+			}
+			free(tmptimer);
+			break;
+		}
+		pretimer=tmptimer;
+		tmptimer=tmptimer->next;
+	}
+	if (!l_timer)
+		Sender_StopTimer();		
+}
+void move_VTimer(){
+	if (f_timer ==l_timer)
+	{
+		f_timer->timer=GetSimulationTime()+0.3;
 
+	}else{
+		l_timer->next=f_timer;
+		l_timer=f_timer;
+		f_timer=f_timer->next;
+		
+		l_timer->next=NULL;
+		l_timer->timer=GetSimulationTime()+0.3;	
+		
+	}
+    	Sender_StartTimer(f_timer->timer-GetSimulationTime());
+}
 /* sender initialization, called once at the very beginning */
 void Sender_Init()
 {
@@ -158,7 +200,7 @@ void Sender_FromUpperLayer(struct message *msg)
     msgtowind(msg);	
 	
     /* 1-byte header indicating the size of the payload */
-    int header_size = 7;
+    int header_size = 9;
 
     /* maximum payload size */
     int maxpayload_size = RDT_PKTSIZE - header_size;
@@ -178,7 +220,11 @@ void Sender_FromUpperLayer(struct message *msg)
 	pkt.data[2] = 0;
 	pkt.data[3] = (tot_message-1) & 0xff;
 	pkt.data[4] = ((tot_message-1)>>8) & 0xff;
+	fprintf(send_log,"mcp:2 s\n");
+	fflush(send_log);
 	memcpy(pkt.data+header_size, msg->data+cursor, maxpayload_size);
+	fprintf(send_log,"mcp:2 e\n");
+	fflush(send_log);
 
 	checksum(&pkt);
 	/*check if checksum is added correct! */
@@ -201,7 +247,11 @@ void Sender_FromUpperLayer(struct message *msg)
 	pkt.data[2] = 2;  //label this packet is the final packet in the message
 	pkt.data[3] = (tot_message-1) & 0xff;
 	pkt.data[4] = ((tot_message-1)>>8) & 0xff;
+	fprintf(send_log,"mcp:3 s\n");
+	fflush(send_log);
 	memcpy(pkt.data+header_size, msg->data+cursor, pkt.data[0]);
+	fprintf(send_log,"mcp:3 e\n");
+	fflush(send_log);
 
 	checksum(&pkt);
 	/* send it out through the lower layer */
@@ -209,8 +259,11 @@ void Sender_FromUpperLayer(struct message *msg)
 
 	tot_packets++;
     }
+ #if 0
     if (!Sender_isTimerSet())
     	Sender_StartTimer(0.3);
+ #endif 
+    add_VTimer(tot_message-1);
 }
 
 /* event handler, called when a packet is passed from the lower layer at the 
@@ -223,31 +276,35 @@ void Sender_FromLowerLayer(struct packet *pkt)
 		unsigned int msgid=(unsigned char)pkt->data[3]+(((unsigned char)pkt->data[4])<<8);
 		fprintf(send_log,"get ack, message id:%d-->%d,%d\n",msgid,pkt->data[3],pkt->data[4]);
 		msgoutwind(msgid);
+		remove_VTimer(msgid);
 	}
+#if 0
 	if (!dd_sendwind)
 		Sender_StopTimer();
 	else
 		Sender_StartTimer(0.3);
+#endif
 }
 
 /* event handler, called when the timer expires */
 void Sender_Timeout()
 {
-#if 0
+#if 1
     if (!f_timer) return;
+  
     unsigned int nowid=l_timer->id;
 #endif
     struct Dd_windows * tmpwind=dd_sendwind;
-#if 0
+#if 1
     while (tmpwind){
     	if (tmpwind->id==nowid) break;
 	tmpwind=tmpwind->next;
     }
     if (!tmpwind) return;
-    tmpwind
+    move_VTimer();
 #endif
 #if 1
-    int header_size = 7;
+    int header_size = 9;
     fprintf(send_log,"time out resent: %dmsg\n",tmpwind->id);
     /* maximum payload size */
     int maxpayload_size = RDT_PKTSIZE - header_size;
@@ -267,7 +324,11 @@ void Sender_Timeout()
 	pkt.data[2] = 0;
 	pkt.data[3] = tmpwind->id & 0xff;
 	pkt.data[4] = (tmpwind->id>>8) & 0xff;
+	fprintf(send_log,"mcp:4 s\n");
+	fflush(send_log);
 	memcpy(pkt.data+header_size, tmpwind->data+cursor, maxpayload_size);
+	fprintf(send_log,"mcp:4 e\n");
+	fflush(send_log);
 	checksum(&pkt);
 	/* send it out through the lower layer */
 	Sender_ToLowerLayer(&pkt);
@@ -284,13 +345,19 @@ void Sender_Timeout()
 	pkt.data[2] = 2;  //label this packet is the final packet in the message
 	pkt.data[3] = (tmpwind->id) & 0xff;
 	pkt.data[4] = (tmpwind->id>>8) & 0xff;
+	fprintf(send_log,"mcp:5 s\n");
+	fflush(send_log);
 	memcpy(pkt.data+header_size, tmpwind->data+cursor, pkt.data[0]);
+	fprintf(send_log,"mcp:5 e\n");
+	fflush(send_log);
 	checksum(&pkt);
 
 	/* send it out through the lower layer */
 	Sender_ToLowerLayer(&pkt);
     }
  #endif
+#if 0
     if (dd_sendwind)
     	Sender_StartTimer(0.3);
+#endif
 }

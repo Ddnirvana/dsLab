@@ -55,25 +55,40 @@ unsigned int checksum_8(unsigned int cksum, char *data,unsigned int size){
 }
 
 void checksum(struct packet *pkt){
-	pkt->data[6]=pkt->data[4];
-	pkt->data[4]=0;
-	pkt->data[5]=0;
+	pkt->data[6]=0;
+	pkt->data[7]=0;
+	pkt->data[5]=0x08;
+	pkt->data[8]=0x27;
 	unsigned short chksum= checksum_8(0,pkt->data,RDT_PKTSIZE);
-	pkt->data[4]=pkt->data[6];
-	pkt->data[5]=chksum >>8;
-	pkt->data[6]=chksum & 0xff;
+	pkt->data[6]=chksum >>8;
+	pkt->data[7]=chksum & 0xff;
+	unsigned int tmp1=0x08,tmp2=0x27;
+	for (int i=0;i<RDT_PKTSIZE/2;i++) tmp1+=pkt->data[i];
+	for (int i=RDT_PKTSIZE/2;i<RDT_PKTSIZE;i++) tmp2+=pkt->data[i];
+	pkt->data[5]= (tmp1 &0xff);
+	pkt->data[8]= (tmp2 &0xff);
 }
 bool check_ckm(struct packet *pkt){
-	char tmpch=pkt->data[6];
-	pkt->data[6]=pkt->data[4];
-	pkt->data[4]=pkt->data[5];
-	pkt->data[5]=tmpch;
+	char tmp1=pkt->data[5];
+	char tmp2=pkt->data[8];
+	pkt->data[5]=0x08;
+	pkt->data[8]=0x27;
 	unsigned short chksum=checksum_8(0,pkt->data,RDT_PKTSIZE);
-	pkt->data[5]=pkt->data[4];
-	pkt->data[4]=pkt->data[6];
-	pkt->data[6]=tmpch;
 	if (chksum){
+		pkt->data[5]=tmp1;
+		pkt->data[8]=tmp2;
 		return false;
-	}else
-		return true;
+	}else{
+		unsigned int tmp1_t=0x08,tmp2_t=0x27;
+		for (int i=0;i<RDT_PKTSIZE/2;i++) tmp1_t+=pkt->data[i];
+		for (int i=RDT_PKTSIZE/2;i<RDT_PKTSIZE;i++) tmp2_t+=pkt->data[i];
+		if ((tmp1 == (char)(tmp1_t & 0xff)) && ( tmp2==(char)(tmp2_t & 0xff))){
+			pkt->data[5]=tmp1;
+			pkt->data[8]=tmp2;
+			return true;
+		}
+		pkt->data[5]=tmp1;
+		pkt->data[8]=tmp2;
+		return false;
+	}
 }

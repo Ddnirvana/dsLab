@@ -25,6 +25,7 @@
  FILE * pk_log;
  FILE * pt_log;
  FILE * event_log;
+ FILE * sim_log;
 /*[]------------------------------------------------------------------------[]
   |  generic event chain framework
   []------------------------------------------------------------------------[]*/
@@ -296,7 +297,11 @@ void Sender_ToLowerLayer(struct packet *pkt)
     if (myrandom()<loss_rate) return;
 
     EventReceiverFromLowerLayer *e = new EventReceiverFromLowerLayer;
+    fprintf(sim_log,"mcp:1 s\n");
+    fflush(sim_log);
     memcpy(&e->pkt.data, pkt->data, RDT_PKTSIZE);
+    fprintf(sim_log,"mcp:1 e\n");
+    fflush(sim_log);
 
     /* packet corrupted at rate "corrupt_rate" */
     if (myrandom()<corrupt_rate) {
@@ -323,7 +328,11 @@ void Receiver_ToLowerLayer(struct packet *pkt)
     if (myrandom()<loss_rate) return;
 
     EventSenderFromLowerLayer *e = new EventSenderFromLowerLayer;
+    fprintf(sim_log,"mcp:2 s\n");
+    fflush(sim_log);
     memcpy(&e->pkt.data, pkt->data, RDT_PKTSIZE);
+    fprintf(sim_log,"mcp:2 e\n");
+    fflush(sim_log);
 
     /* packet corrupted at rate "corrupt_rate" */
     if (myrandom()<corrupt_rate) {
@@ -371,6 +380,7 @@ void log_init()
 	fprintf(pk_log,"Hello,log\n");
 	pt_log=fopen("pt_log","w");
 	event_log=fopen("event_log","w");
+	sim_log=fopen("sim_log","w");
 	fflush(pk_log);
 }
 
@@ -379,6 +389,7 @@ void log_finish()
 	fclose(pk_log);
 	fclose(pt_log);
 	fclose(event_log);
+	fclose(sim_log);
 }
 
 /*[]------------------------------------------------------------------------[]
